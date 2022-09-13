@@ -77,7 +77,7 @@ def get_weather_1():
 
 #天行数据接口
 def get_weather_2():
-  url = "http://api.tianapi.com/tianqi/index?key=d5edced4967c76fd11899dbe1b753d91&city=" + city
+  url = "http://api.tianapi.com/tianqi/index?key=8a1a8aabc5bce0999dc9fc57e0b31f80&city=" + city
   res2 = requests.get(url,verify=False)
   if res2.status_code != 200:
     return res2()
