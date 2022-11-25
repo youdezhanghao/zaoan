@@ -95,9 +95,6 @@ data = {
     "sunset1": {
         'value':'日落时间：'
     },
-    "pop1": {
-        'value':'降雨概率：'
-    },
     "tips1": {
         "value":'穿衣建议：'
     },
@@ -174,13 +171,8 @@ data = {
         "value":sunset,
         "color":get_random_color()
     },
-    #降雨概率：
-    "pop":{
-        "value":pop,
-        "color":get_random_color()
-    },
     #穿衣建议：
-    "tips":{
+    "tips":{                                                                                                                                                                                                                                                                                                                                                    
         "value":tips,
         "color":get_random_color()
     },
